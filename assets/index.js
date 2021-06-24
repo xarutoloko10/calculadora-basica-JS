@@ -18,8 +18,8 @@ function verifyInputs() {
 
 //Função de somar
 somar.addEventListener('click' , () =>  {
-    let valor1 = parseInt(espaco1.value);
-    let valor2 = parseInt(espaco2.value);
+    let valor1 = parseFloat(espaco1.value);
+    let valor2 = parseFloat(espaco2.value);
 
     verifyInputs();
 
@@ -29,8 +29,8 @@ somar.addEventListener('click' , () =>  {
 
 //Função de subtrair
 subtrair.addEventListener('click' , () =>  {
-    let valor1 = parseInt(espaco1.value);
-    let valor2 = parseInt(espaco2.value);
+    let valor1 = parseFloat(espaco1.value);
+    let valor2 = parseFloat(espaco2.value);
 
     verifyInputs();
 
@@ -40,8 +40,8 @@ subtrair.addEventListener('click' , () =>  {
 
 //Função de multiplicar
 multiplicar.addEventListener('click' , () =>  {
-    let valor1 = parseInt(espaco1.value);
-    let valor2 = parseInt(espaco2.value);
+    let valor1 = parseFloat(espaco1.value);
+    let valor2 = parseFloat(espaco2.value);
 
     verifyInputs();
 
@@ -51,8 +51,8 @@ multiplicar.addEventListener('click' , () =>  {
 
 //Função de dividir
 dividir.addEventListener('click' , () =>  {
-    let valor1 = parseInt(espaco1.value);
-    let valor2 = parseInt(espaco2.value);
+    let valor1 = parseFloat(espaco1.value);
+    let valor2 = parseFloat(espaco2.value);
 
     verifyInputs();
 
