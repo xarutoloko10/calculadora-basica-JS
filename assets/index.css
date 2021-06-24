@@ -1,0 +1,90 @@
+/*-------------------------CONFIG DEFAULT-------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------PÁGINA-------------------------*/
+
+/* Definindo a cor de fundo da página */
+body {
+    height: 100%;
+    background-color: #272A2A;
+}
+
+/* Definindo configurações do section */
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------------------TÍTULO-------------------------*/
+
+/*Caixa em volta do título*/
+.title {
+    justify-content: center;
+    background-color: dimgray;
+    padding: 10px 0;
+}
+
+/*Título que ficará no topo da página */
+.title > .pagetitle {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*-------------------------CALCULADORA-------------------------*/
+
+/* Definições da calculadora */
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: max-content;
+}
+
+/* Ajustes nos espaços para digitar o número */
+.calculator .input {
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    height: 80px;
+    border: 0;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+
+/* Definições na caixa dos botões para calculo  */
+.calculator .buttons {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+    height: 50px;
+}
+/* Definição nos botões para calculo */
+.calculator button {
+    text-align: center;
+    font-size: 40px;
+    width: 20%;
+    margin: 0 10px;
+    background-color: green;
+    border: 0;
+    border-radius: 20px;
+}
+
+/* Sinal de igual */
+.calculator .equal {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+}
